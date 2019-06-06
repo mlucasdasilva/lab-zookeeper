@@ -35,5 +35,10 @@ services:
     build:
       context: ./confd
     image: confd
-    command: sleep 840000
-     
+#    command: sleep 840000
+    command: confd -backend zookeeper -node zoo2
+#    command: confd -onetime -backend zookeeper -node zoo2
+    volumes:
+      - ./configs:/etc/confd     
+
+

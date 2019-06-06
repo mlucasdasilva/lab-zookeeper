@@ -4,6 +4,9 @@
 ## No zookeper cli:
 
 
+zkCli.sh -server zoo1
+
+
 [zk: localhost:2181(CONNECTED) 1] create /myapp ""
 
 [zk: localhost:2181(CONNECTED) 2] create /myapp/database ""

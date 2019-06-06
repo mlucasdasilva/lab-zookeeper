@@ -1,0 +1,9 @@
+[template]
+src = "myconfig.conf.tmpl"
+dest = "/etc/confd/saida/myconfig.conf"
+keys = [
+    "/myapp/database/url",
+    "/myapp/database/user",
+]
+
+
