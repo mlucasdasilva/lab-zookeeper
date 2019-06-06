@@ -85,5 +85,5 @@ refs.:
 
 https://github.com/kelseyhightower/confd/blob/master/docs/quick-start-guide.md
 
-
+https://github.com/kelseyhightower/confd/issues/424
 
