@@ -1,5 +1,5 @@
 #FROM centos:centos7
-FROM zookeeper
+FROM zookeeper:3.4.14
 
 #RUN yum install -y wget
 
